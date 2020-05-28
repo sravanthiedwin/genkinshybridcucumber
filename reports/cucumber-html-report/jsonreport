@@ -1,0 +1,222 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Validate the login functionality",
+        "description": "",
+        "id": "orangehrm-website;validate-the-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6425537100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch the browser and enter the url",
+            "match": {
+              "location": "orangehrmloginstep.launch_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 876088300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login page is opened",
+            "match": {
+              "location": "orangehrmloginstep.login_page_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1382800900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 11
+                },
+                {
+                  "val": "admin123",
+                  "offset": 23
+                }
+              ],
+              "location": "orangehrmloginstep.enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tc_01_login"
+          },
+          {
+            "line": 1,
+            "name": "@orangeHRM"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Validate the login functionality",
+        "description": "",
+        "id": "orangehrm-website;validate-the-login-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4639420900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch the browser and enter the url",
+            "match": {
+              "location": "orangehrmloginstep.launch_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 961042100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login page is opened",
+            "match": {
+              "location": "orangehrmloginstep.login_page_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1068579200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the \"admin\" and \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 11
+                },
+                {
+                  "val": "Admin123",
+                  "offset": 23
+                }
+              ],
+              "location": "orangehrmloginstep.enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tc_01_login"
+          },
+          {
+            "line": 1,
+            "name": "@orangeHRM"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Validate admin functionality",
+        "description": "",
+        "id": "orangehrm-website;validate-admin-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "launch orangehrm application",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "click on admin",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "enter username",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "select userrole",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "select status",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "enter Employeename",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "orangeHrm website",
+    "description": "",
+    "id": "orangehrm-website",
+    "keyword": "Feature",
+    "uri": "C:/Users/edwin/eclipse-workspace1/cucumberhybridframework/src/test/resources/Features/Testcase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@orangeHRM"
+      }
+    ]
+  }
+]

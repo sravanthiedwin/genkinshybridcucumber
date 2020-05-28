@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.testrunner.testrunner
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 30.044 sec - in com.testrunner.testrunner
